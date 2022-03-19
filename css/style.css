@@ -32,6 +32,11 @@ section{
 
 }
 
+ul {
+    display: table;
+    margin: 0 auto;
+}
+
 .img {
     width: 100%;
 }
@@ -81,4 +86,23 @@ section{
     width: 150px;
     background: linear-gradient(rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
     margin: 16px auto;
+}
+
+.skill .skills-image {
+    position: relative;
+}
+
+.skill .skills-image .skills-icon {
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
