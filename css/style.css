@@ -21,15 +21,19 @@ section{
      position: relative;
  }
 
- .overlay {
+.overlay {
      position: absolute;
      top: 0;
      left: 0;
      width: 100%;
      height: 100%;
-     background: linear-gradient(rgba(73,85,253,0.7), rgba(165,227,0,0.7));
+     background: linear-gradient(rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
      z-index: -1;
 
+}
+
+.img {
+    width: 100%;
 }
 
 .hero-section {
@@ -57,7 +61,7 @@ section{
 }
 
 .btn-main {
-    background: linear-gradient(to right ,rgba(73,85,253,0.4), rgba(165,227,0,0.4));
+    background: linear-gradient(rgba(0, 224, 254, 0.4), rgb(17, 7, 254, 0.4));
     border-radius: 100px;
     border: none;
     font-weight: 600;
@@ -66,5 +70,15 @@ section{
 
 .navbar {
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
-    color:#4955fd
+}
+
+.section-intro {
+    margin-bottom: 40px;
+}
+
+.section-intro .divider {
+    height: 5px;
+    width: 150px;
+    background: linear-gradient(rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
+    margin: 16px auto;
 }
