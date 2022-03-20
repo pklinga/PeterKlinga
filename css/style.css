@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body{
     font-family: "Roboto", sans-serif;
     line-height: 1.7;
+}
+
+#my-name {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -32,13 +39,14 @@ section{
 
 }
 
-ul {
+#skills ul {
     display: table;
     margin: 0 auto;
 }
 
 .img {
     width: 100%;
+    height: 300px;
 }
 
 .hero-section {
@@ -77,6 +85,12 @@ ul {
     box-shadow: 0 12px 20px rgba(0,0,0,0.1);
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    background: -webkit-linear-gradient(rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .section-intro {
     margin-bottom: 40px;
 }
@@ -84,7 +98,7 @@ ul {
 .section-intro .divider {
     height: 5px;
     width: 150px;
-    background: linear-gradient(rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
+    background: linear-gradient(to right ,rgba(0, 224, 254, 0.7), rgb(17, 7, 254, 0.7));
     margin: 16px auto;
 }
 
@@ -95,7 +109,6 @@ ul {
 .skill .skills-image .skills-icon {
     width: 100px;
     height: 100px;
-    color: white;
     border-radius: 100px;
     display: flex;
     align-items: center;
