@@ -214,21 +214,21 @@
                 <div class="col-md-8 mx-auto" data-aos="zoom-in">
                     <form action="https://formsubmit.co/peter.klinga.dev@gmail.com" method="POST" class="row g-4">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Your name" name="name">
+                            <input type="text" class="form-control" placeholder="Your name" name="name" required>
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="email" class="form-control" placeholder="Your email address" name="email">
+                            <input type="email" class="form-control" placeholder="Your email address" name="email"
+                                required>
                         </div>
                         <div class="form-group col-md-12">
-                            <input type="text" class="form-control" placeholder="Subject" name="subject">
+                            <input type="text" class="form-control" placeholder="Subject" name="_subject">
                         </div>
                         <div class="form-group col-md-12">
                             <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Your message"
-                                name="message"></textarea>
+                                name="message" required></textarea>
                         </div>
                         <div>
-                            <button class="btn btn-contact" type="submit" value="Send Email"
-                                onclick="sendContact();">Send it through the air!</button>
+                            <button class="btn btn-contact" type="submit">Send it through the air!</button>
                         </div>
                     </form>
                 </div>
