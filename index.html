@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/line-icons.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>💻 Peter Klinga 💻</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
         <div class="container">
             <a class="navbar-brand" href="#" id="my-name">Peter Klinga</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -48,15 +49,16 @@
     <section id="home" class="bg-cover hero-section" style="background-image: url(img/zx81.jpg);">
         <div class="overlay"></div>
         <div class="container text-white text-center">
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <div class="col-12">
                     <h1>Who's this guy?<h1>
-                            <h3 class="my-4 display-4">A cool Developer? <em>Yes.</em><br>
+                            <h3 class="my-4 display-4"">A cool Developer? <em>Yes.</em><br>
                                 Based in Hungary, EU? <em>Yes.</em><br>
                                 Available for (freelance) work and projects?<br> <em>a big YES!</em></h3>
-                            <h4 class="my-4">So, feel free to browse this website and check out the skills and projects!
-                            </h4>
-                            <a href="#skills" class="btn btn-main">Get started</a>
+                            <h4 class=" my-4">So, feel free to browse this website and check out the skills and
+                                projects!
+                                </h4>
+                                <a href="#skills" class="btn btn-main">Get started</a>
                 </div>
             </div>
         </div>
@@ -68,7 +70,7 @@
     <section id="skills" class="text-center">
         <div class="container">
             <div class="row">
-                <div class="col-12 section-intro text-center">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
                     <h1>Skills</h1>
                     <div class="divider"></div>
                     <h4>Here are my skills at the moment. <br>"Including but not limited to"</h4>
@@ -76,7 +78,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="skill">
                         <div class="skills-image">
                             <img class="col-md-12 img" src="img/ai2.jpg" alt="ai-pic">
@@ -94,7 +96,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="skill">
                         <div class="skills-image">
                             <img class="col-md-12 img" src="img/program.jpg" alt="program-pic">
@@ -112,7 +114,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="skill">
                         <div class="skills-image">
                             <img class="col-md-12 img" src="img/matrix.jpg" alt="matrix-pic">
@@ -142,7 +144,7 @@
         <div class=" overlay"></div>
         <div class="container text-white text-center">
             <div class="row">
-                <div class="col-12 section-intro text-center">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
                     <h1>Projects</h1>
                     <div class="divider"></div>
                     <h4>Check out my projects!</h4>
@@ -150,7 +152,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="skill">
                         <div class="skills-image">
                             <img class="col-md-12 img pt-4" src="img/coffee.jpg" alt="coffee-pic">
@@ -163,7 +165,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="skill">
                         <div class="skills-image">
                             <img class="col-md-12 img pt-4" src="img/pong.jpg" alt="pong-pic">
@@ -176,7 +178,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in">
                     <div class="skill">
                         <div class="skills-image">
                             <img class="col-md-12 img pt-4" src="img/quiz.jpg" alt="quiz-pic">
@@ -201,7 +203,7 @@
     <section id="contact" class="text-center">
         <div class="container">
             <div class="row">
-                <div class="col-12 section-intro text-center">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
                     <h1>Get in touch</h1>
                     <div class="divider"></div>
                     <h4>Please feel free to write a message.</h4>
@@ -209,7 +211,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-8 mx-auto">
+                <div class="col-md-8 mx-auto" data-aos="zoom-in">
                     <form action="#" class="row g-4">
                         <div class="form-group col-md-6">
                             <input type="text" class="form-control" placeholder="Your name">
@@ -259,10 +261,15 @@
     </footer>
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <!-- Animation -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
