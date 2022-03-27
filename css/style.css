@@ -56,6 +56,11 @@ section{
     align-items: center;
 }
 
+.me-img{
+    width: 20%;
+    height: 150px;
+}
+
 .bg-cover{
     background-position: center;
     background-repeat: no-repeat;
@@ -134,6 +139,6 @@ footer {
 }
 
 .bx {
-    color: white;
-    font-size: 30px;
+    color: rgb(15, 6, 254);
+    font-size: 50px;
 }
